@@ -10,7 +10,7 @@ import module namespace fetch = "http://zorba.io/modules/fetch";
 
 import module namespace coll = "http://repository.vsnet.gmu.edu/config/collection.jq";
 :)
-
+(:This is a change in the file:)
 declare function mm:ha1($univDB) {
 (:
 let $univDB := jn:parse-json(fetch:content("sampleUnivDB.json"))
